@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page - SocialBook</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c30aff2847.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+    <nav>
+      <div class="nav-left">
+          <a href="index.html"><img src="images/logo.png" alt="logo" class="logo" /></a>
+        
+        <ul class="nav-left-ul">
+          <li class="nav-left-li">
+            <img src="images/notification.png" alt="" />
+          </li>
+          <li class="nav-left-li">
+            <img src="images/inbox.png" alt="inbox" />
+          </li>
+          <li class="nav-left-li">
+            <img src="images/video.png" alt="video" />
+          </li>
+        </ul>
+      </div>
+      <!-- nav-left -->
+
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="images/search.png" alt="Search" />
+          <input type="text" placeholder="Search" class="search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img
+            src="images/profile-pic.png"
+            alt="profile"
+            title="IslvmVlbo Profile"
+          />
+        </div>
+      </div>
+      <!-- nav-right -->
+
+
+      <div class="settings-menu">
+
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" />
+            <div>
+              <p>Islam Albogachiev</p>
+              <a href="#">See your profile</a>
+            </div>
+        </div>
+        <hr>
+          <div class="user-profile">
+            <img src="images/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+        </div>
+        <hr>
+
+          <div class="settings-links">
+            <img src="images/setting.png" class="settings-icons">
+            <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/help.png" class="settings-icons">
+            <a href="#">Hepl & Support <img src="images/arrow.png" width="10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/display.png" class="settings-icons">
+            <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/logout.png" class="settings-icons">
+            <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+          </div>
+
+        </div>
+        
+      </div>
+      <!-- settings-menu -->
+    </nav>
+
+
+
+    <!-- profile-page ------------ -->
+
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png" class="pd-image">
+                    <div>
+                        <h3>John Doe</h3>
+                        <p>120 Friends - 20 mutual</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png">
+                        <img src="images/member-3.png">
+                        <img src="images/member-4.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="images/add-friends.png">Friends</button>
+                <button type="button"><img src="images/message.png">Message</button>
+                <br></br>
+                <a href="#"><img src="images/more.png"></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself and you can do unbelieveable things! <img src="images/feeling.png"> </p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png"> Director at 99media Ltd</li>
+                        <li><img src="images/profile-study.png"> Studied at Amity Univercity</li>
+                        <li><img src="images/profile-study.png">Want to DPS Moscow</li>
+                        <li><img src="images/profile-home.png">Lives in Oclahoma, USA</li>
+                        <li><img src="images/profile-location.png">From Delphi, India</li>
+                    </ul>
+                </div>
+                
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All photos</a> 
+                    </div>
+
+                    <div class="photo-box">
+                        <div class=""><img src="images/photo1.png" alt=""></div>
+                        <div class=""><img src="images/photo2.png" alt=""></div>
+                        <div class=""><img src="images/photo3.png" alt=""></div>
+                        <div class=""><img src="images/photo4.png" alt=""></div>
+                        <div class=""><img src="images/photo5.png" alt=""></div>
+                        <div class=""><img src="images/photo6.png" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a> 
+                    </div>
+                    <p>120 (10 mutual)</p>
+                    <div class="friends-box">
+                        <div class=""><img src="images/member-2.png"><p>Joseph N</p> </div>
+                        <div class=""><img src="images/member-1.png"><p>Nathan N</p> </div>
+                        <div class=""><img src="images/member-3.png"><p>George D</p> </div>
+                        <div class=""><img src="images/member-4.png"><p>Francis L</p> </div>
+                        <div class=""><img src="images/member-5.png"><p>Anthony H</p> </div>
+                        <div class=""><img src="images/member-6.png"><p>Michael A</p> </div>
+                        <div class=""><img src="images/member-7.png"><p>Ivan S</p> </div>
+                        <div class=""><img src="images/member-8.png"><p>Steaven E</p> </div>
+                        <div class=""><img src="images/member-9.png"><p>James F</p> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                      <img src="images/profile-pic.png" />
+                      <div>
+                        <p>Islam Albogachiev</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                      </div>
+                    </div>
+          
+                    <div class="post-input-container">
+                      <textarea
+                        rows="2"
+                        placeholder="What's on your mind, Islam?"
+                      ></textarea>
+          
+                      <div class="add-post-links">
+                        <a href="#">
+                          <img src="images/live-video.png" />
+                          Live Video
+                        </a>
+                        <a href="#">
+                          <img src="images/photo.png" />
+                          Photo/Video
+                        </a>
+                        <a href="#">
+                          <img src="images/feeling.png" />
+                          Feeling Activity
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="post-container">
+                    <div class="post-row">
+                      <div class="user-profile">
+                        <img src="images/member-8.png" />
+                        <div>
+                          <p>Chloe Johnson</p>
+                          <span> June 24 2021, 13:40 pm</span>
+                        </div>
+                      </div>
+                      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+          
+                    <p class="post-text">
+                      This layout-prototype was created by
+                      <span>
+                        <a href="https://github.com/islvmvlbo">IslvmVlbo</a><br /></span
+                      ><a href="#">#GitHub</a> <a href="#"> #IslvmVlbo</a>
+                      <a href="#">#SocialBook</a>
+                    </p>
+          
+                    <img src="images/feed-image-1.png" class="post-image" />
+          
+                    <div class="post-row">
+                      <div class="activity-icons">
+                        <div><img src="images/like-blue.png" />120</div>
+                        <div><img src="images/comments.png" />40</div>
+                        <div><img src="images/share.png" />6</div>
+                      </div>
+          
+                      <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" /><i
+                          class="fas fa-caret-down"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="post-container">
+                    <div class="post-row">
+                      <div class="user-profile">
+                        <img src="images/profile-pic.png" />
+                        <div>
+                          <p>Islam Albogachiev</p>
+                          <span> July 3 2021, 9:23 pm</span>
+                        </div>
+                      </div>
+                      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+          
+                    <p class="post-text">
+                      Let me know if you like my job! Thank you! Share with youe friends ;)
+                      <a href="#">#GitHub</a> <a href="#"> #IslvmVlbo</a>
+                      <a href="#">#SocialBook</a>
+                    </p>
+          
+                    <img src="images/feed-image-2.png" class="post-image" />
+          
+                    <div class="post-row">
+                      <div class="activity-icons">
+                        <div><img src="images/like.png" />12</div>
+                        <div><img src="images/comments.png" />6</div>
+                        <div><img src="images/share.png" />2</div>
+                      </div>
+          
+                      <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" /><i
+                          class="fas fa-caret-down"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="post-container">
+                    <div class="post-row">
+                      <div class="user-profile">
+                        <img src="images/profile-pic.png" />
+                        <div>
+                          <p>Islam Albogachiev</p>
+                          <span> July 3 2021, 9:23 pm</span>
+                        </div>
+                      </div>
+                      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+          
+                    <p class="post-text">
+                      Let me know if you like my job! Thank you! Share with youe friends ;)
+                      <a href="#">#GitHub</a> <a href="#"> #IslvmVlbo</a>
+                      <a href="#">#SocialBook</a>
+                    </p>
+          
+                    <img src="images/feed-image-3.png" class="post-image" />
+          
+                    <div class="post-row">
+                      <div class="activity-icons">
+                        <div><img src="images/like.png" />12</div>
+                        <div><img src="images/comments.png" />6</div>
+                        <div><img src="images/share.png" />2</div>
+                      </div>
+          
+                      <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" /><i
+                          class="fas fa-caret-down"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="post-container">
+                    <div class="post-row">
+                      <div class="user-profile">
+                        <img src="images/profile-pic.png" />
+                        <div>
+                          <p>Islam Albogachiev</p>
+                          <span> July 3 2021, 9:23 pm</span>
+                        </div>
+                      </div>
+                      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+          
+                    <p class="post-text">
+                      Let me know if you like my job! Thank you! Share with youe friends ;)
+                      <a href="#">#GitHub</a> <a href="#"> #IslvmVlbo</a>
+                      <a href="#">#SocialBook</a>
+                    </p>
+          
+                    <img src="images/feed-image-3.png" class="post-image" />
+          
+                    <div class="post-row">
+                      <div class="activity-icons">
+                        <div><img src="images/like.png" />12</div>
+                        <div><img src="images/comments.png" />6</div>
+                        <div><img src="images/share.png" />2</div>
+                      </div>
+          
+                      <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" /><i
+                          class="fas fa-caret-down"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="post-container">
+                    <div class="post-row">
+                      <div class="user-profile">
+                        <img src="images/profile-pic.png" />
+                        <div>
+                          <p>Islam Albogachiev</p>
+                          <span> July 3 2021, 9:23 pm</span>
+                        </div>
+                      </div>
+                      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+          
+                    <p class="post-text">
+                      Let me know if you like my job! Thank you! Share with youe friends ;)
+                      <a href="#">#GitHub</a> <a href="#"> #IslvmVlbo</a>
+                      <a href="#">#SocialBook</a>
+                    </p>
+          
+                    <img src="images/feed-image-4.png" class="post-image" />
+          
+                    <div class="post-row">
+                      <div class="activity-icons">
+                        <div><img src="images/like.png" />12</div>
+                        <div><img src="images/comments.png" />6</div>
+                        <div><img src="images/share.png" />2</div>
+                      </div>
+          
+                      <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" /><i
+                          class="fas fa-caret-down"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+      <p>Copyright 2021 - <a href="https://github.com/islvmvlbo">IslvmVlbo</a> Github Page</p>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
